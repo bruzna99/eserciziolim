@@ -1,0 +1,68 @@
+body{
+  background-image: url(immaginiprova/background.jpg);
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.contenitor{
+  width: 80%;
+  height: 10%;
+  margin:auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 150px;
+}
+
+.text-logo{
+  text-align: center;
+  color: limegreen;
+}
+
+#logo{
+  width: 200px;
+  margin-left: 300px;
+}
+
+nav{
+  background-color: limegreen;
+  text-align: center;
+  padding: 10px;
+}
+
+
+h2{
+  display: inline-block;
+  color: white;
+  margin: 10px;
+}
+
+.carica-media{
+  background-color: orange;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.carica-alta{
+  background-color: limegreen;
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.carica-bassa{
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+p{
+  color: white;
+  margin: 5px;
+}
